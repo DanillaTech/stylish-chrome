@@ -228,7 +228,7 @@
     "description": "Text displayed when no styles are installed for the current site"
   },
   "findStylesForSite": {
-    "message": "Найдите другие стили для этого веб-сайта.",
+    "message": "Найдите ESI стили для этого веб-сайта.",
     "description": "Text for a link that gets a list of styles for the current site"
   },
   "deleteStyleConfirm": {
