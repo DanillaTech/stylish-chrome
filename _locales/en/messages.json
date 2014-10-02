@@ -17,7 +17,7 @@
 		"placeholders": {
 			"applies": {
 				"content": "$1"
-			}
+			}d
 		}
 	},
 	"appliesDisplayTruncatedSuffix": {
@@ -114,7 +114,7 @@
 		"description": "Label for the button to enable a style"
 	},
 	"findStylesForSite": {
-		"message": "Find more styles for this site.",
+		"message": "Find ESI styles for this site.",
 		"description": "Text for a link that gets a list of styles for the current site"
 	},
 	"helpAlt": {
