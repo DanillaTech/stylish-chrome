@@ -3,7 +3,7 @@ styleTemplate.innerHTML = "<div class='style-name'></div><div class='actions'><a
 
 chrome.tabs.getSelected(null, function(tab) {
 	chrome.extension.sendMessage({method: "getStyles", matchUrl: tab.url}, showStyles);
-	document.querySelector("#find-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url);
+	document.querySelector("#find-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url)+"%20esi";
 });
 
 function showStyles(styles) {
