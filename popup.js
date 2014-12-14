@@ -5,6 +5,10 @@ chrome.tabs.getSelected(null, function(tab) {
 	chrome.extension.sendMessage({method: "getStyles", matchUrl: tab.url}, showStyles);
 	document.querySelector("#find-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url)+"%20esi";
 });
+chrome.tabs.getSelected(null, function(tab) {
+	chrome.extension.sendMessage({method: "getStyles", matchUrl: tab.url});
+	document.querySelector("#esifind-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url);
+});
 
 function showStyles(styles) {
 	var installed = document.getElementById("installed");
@@ -83,7 +87,9 @@ function handleDelete(id) {
 
 tE("open-manage-link", "openManage");
 tE("find-styles-link", "findStylesForSite");
+tE("esifind-styles-link", "esifindStylesForSite");
 
 document.getElementById("find-styles-link").addEventListener("click", openLink, false);
+document.getElementById("esifind-styles-link").addEventListener("click", openLink, false);
 document.getElementById("open-manage-link").addEventListener("click", openLink, false);
 

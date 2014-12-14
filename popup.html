@@ -1,14 +1,14 @@
 <html>
 	<head>
 		<style>
-		*{font-size:20px;
-		line-height:136%;
-		font-family:sans-serif;
-		}
+		*{font-family:tahoma, sans-serif}
 			body {
-				width: 400px;
-			}
+				font-size:19px;
+				line-height:136%;
+				width:400px;
+			}sans-serif
 			#no-styles {
+				font-style: italic;
 			}
 			.disabled {
 				color: #BBB;
@@ -20,29 +20,29 @@
 				display: none;
 			}
 			.style-name {
-				font-weight: bold;
-				font-size:20px;
-			}
-			.actions {
-				font-size: 18px;
+				font-weight: normal;
 			}
 			a, a:visited {
 				color: #072;
 				text-decoration:none;
+				padding-right: 5px;
+				padding-left: 5px;
 			}
-			A:hover {color: #1758A6; 
-			text-decoration: none}
+			A:hover {
+			color: #A60;
+			background: rgba(119, 119, 119, 0.2);
+			text-decoration: none;
+			-webkit-border-radius: 2px;
+			-khtml-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+			}
 			.entry {
 				padding-bottom: 0.5em;
 				margin-bottom: 0.5em;
 				border-bottom: 1px solid black;
 			}
-			#find-styles, #manage-styles {
-				font-size: 18px;
-			}
-			#find-styles {
-				margin-bottom: 0.1em;
-			}
+
 		</style>
 
 		<script src="localization.js"></script>
@@ -55,6 +55,8 @@
 	<div id="installed"></div>
 
 	<div id="find-styles"><a id="find-styles-link" href="#"></a></div>
+	<div id="esifind-styles"><a id="esifind-styles-link" href="#"></a></div>
+
 	<div id="manage-styles"><a id="open-manage-link" href="manage.html"></a></div>
 
 	<script src="popup.js"></script>
