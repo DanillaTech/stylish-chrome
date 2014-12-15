@@ -85,7 +85,7 @@
    },
    "description": {
       "description": "Extension description",
-      "message": "Сохрани свои глаза и улучши осанку с помощью ESI-стилей для VK, YouTube, Wikipedia, FaceBook и многих других сайтов!"
+      "message": "Сделай интернет комфортнее с помощью ESI-стилей!"
    },
    "disableStyleLabel": {
       "description": "Label for the button to disable a style",
@@ -114,11 +114,7 @@
    },
    "findStylesForSite": {
       "description": "Text for a link that gets a list of styles for the current site",
-      "message": "Найти стили для этого веб-сайта."
-   },
-   "esifindStylesForSite": {
-      "description": "Text for a link that gets a list of styles for the current site",
-      "message": "Найти ESI стили для этого веб-сайта."
+      "message": "Найдите ESI стили для этого веб-сайта."
    },
    "helpAlt": {
       "description": "Alternate text for help buttons",
@@ -142,7 +138,7 @@
    },
    "noStylesForSite": {
       "description": "Text displayed when no styles are installed for the current site",
-      "message": "Вы ещё не установили стили для этого сайта"
+      "message": "Для этого веб-сайта не установлено ни одного стиля."
    },
    "openManage": {
       "description": "Link to open the manage page.",

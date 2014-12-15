@@ -32,5 +32,5 @@
    "options_page": "manage.html",
    "permissions": [ "tabs", "http://userstyles.org/", "https://userstyles.org/" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.1"
+   "version": "1.0.9.2"
 }
