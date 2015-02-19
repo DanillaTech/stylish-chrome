@@ -85,7 +85,7 @@
    },
    "description": {
       "description": "Extension description",
-      "message": "Changez l'apparence du Web grâce à Stylish, un outil de gestion des styles utilisateur."
+      "message": "Improve vision, posture and readability with calibration web for yourself!"
    },
    "disableStyleLabel": {
       "description": "Label for the button to disable a style",
@@ -111,6 +111,14 @@
    "enableStyleLabel": {
       "description": "Label for the button to enable a style",
       "message": "Activer"
+   },
+   "esifindStylesForSite": {
+      "description": "Text for a link that gets a list of ESI styles for the current site",
+      "message": "Rechercher d'autres ESI styles pour ce site"
+   },
+   "esihelp": {
+      "description": "Get support for ESI",
+      "message": "Get support for ESI styles."
    },
    "findStylesForSite": {
       "description": "Text for a link that gets a list of styles for the current site",

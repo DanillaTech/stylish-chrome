@@ -1,12 +1,16 @@
-Stylish - a user style manager for Google Chrome.
+ESI Stylish - это форк известного плагина «Stylish», направленный на загрузку ESI стилей, помогающих улучшить зрение и осанку.
+Также его можно использовать как обычный Stylish, только с более крупными шрифтами.
 
-* Releases - https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
-* Source respository - https://github.com/JasonBarnabe/stylish
-* Help - http://userstyles.org/help/stylish_chrome
 
-For copyright status of the "codemirror" directory, see codemirror/LICENSE. Everything else is:
+* Релиз для Google Chrome: https://chrome.google.com/webstore/detail/esi-stylish/bldankcfaddopfeelafmbkjboflldjki/
+* Релиз для Opera:  https://addons.opera.com/ru/extensions/details/esi-stylish/
+* Исходники - https://github.com/DanillaTech/stylish-chrome
+* Оригинальные исходники: https://github.com/JasonBarnabe/stylish-chrome
+* Помощь - http://dreamject.org/dreamjects/esi/support/
 
-Copyright (C) 2005-2013 Jason Barnabe <jason.barnabe@gmail.com>
+Информацию по авторским правам смотрите в каталоге «codemirror», в разделе codemirror/LICENSE. Всё остальное здесь:
+
+Copyright (C) 2015 Danila Isakov <da@dreamject.org>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -5,7 +5,7 @@
    "browser_action": {
       "default_icon": "19.png",
       "default_popup": "popup.html",
-      "default_title": "ESI"
+      "default_title": "ESI Stylish"
    },
    "content_scripts": [ {
       "all_frames": true,
@@ -20,17 +20,20 @@
    } ],
    "default_locale": "en",
    "description": "__MSG_description__",
-   "homepage_url": "http://userstyles.org",
+   "developer": {
+      "name": "danillatech"
+   },
+   "homepage_url": "http://dreamject.ru/dreamjects/esi/support/",
    "icons": {
       "128": "128.png",
       "16": "16.png",
       "48": "48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiaVNl3mz1jT7Lnqy0NxXvJommBiXWdhqE96FrfvXtYDj26O4BlbpzY/q2X6gFNs2mDyQJxQ+IaKIwn5XtgWKzglkQu9y3PQFjRpPTT5tEiUTqal2DS1fIvWj7gckyNwl3lzTxN/XA6tAH026DzxBJRxFlOiz6SrG776u+OPrFnMunS30J7YspSWJ6KTXTz6i8KH2VDSArXciti1O21CNB2Vm4g7tcjmCYPZ2hFy0HBmRA8WyX6v5nVlYqMSH1g+oVjc24BCIJTIN49xnqWXhzD6cPVshCqp3c4YTD0VhX7DemFCn97Hf7VRVayBW24W1046/7g/K65o+ltt8VImB5wIDAQAB",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsWnWxHPI0DZCQotGWyVv5TuATCXKnDGGqmhgbdQRzCgUjWK9wZOh9KVbuMujrXZXBC+l0LE41pHA60hAYlaGoDPhzDueowf68QsAA/eWzMqVYQDW0fqLPdnEsMGuJkasEhmpnsvhHuxa4sY8jp7wPj26GaHmDlN9M4d2KGURccOjUUTvAgQaDP0bIA8FRZlaNyRh6Z5hcLLys6x9rHIsAeMy7tSID6qbKH78RNrT4Yn0RAcwpAYa+fBqETPMuD/0Ykt2ARpGcztTtaBWE41nd9xYviitrEnwXbdpMKfqfxjUEvCPpWvb2+f8FxlsDrN3E1zSIFIdqNa92rr4kGzL0QIDAQAB",
    "manifest_version": 2,
    "name": "ESI Stylish",
    "options_page": "manage.html",
    "permissions": [ "tabs", "http://userstyles.org/", "https://userstyles.org/" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.9.2"
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "1.1.3"
 }

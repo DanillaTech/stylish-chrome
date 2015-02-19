@@ -3,11 +3,10 @@
 		<style>
 		*{font-family:tahoma, sans-serif}
 			body {
-				width: 330px;
+				font-size:19px;
+				line-height:136%;
+				width:408px;
 			}sans-serif
-			#no-styles {
-				font-style: italic;
-			}
 			.disabled {
 				color: #BBB;
 			}
@@ -19,27 +18,29 @@
 			}
 			.style-name {
 				font-weight: bold;
-				font-size:20px;
-			}
-			.actions {
-				font-size: 18px;
 			}
 			a, a:visited {
-				color: #072;
+				color: #000/*#072*/;
 				text-decoration:none;
+				padding-right: 5px;
+				padding-left: 5px;
 			}
-			A:hover {color: #1758A6; 
-			text-decoration: none}
+			A:hover {
+			color: #A60;
+			background: rgba(119, 119, 119, 0.2);
+			text-decoration: none;
+			-webkit-border-radius: 2px;
+			-khtml-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+			}
 			.entry {
 				padding-bottom: 0.5em;
 				margin-bottom: 0.5em;
 				border-bottom: 1px solid black;
 			}
-			#find-styles, #manage-styles {
-				font-size: 18px;
-			}
-			#find-styles {
-				margin-bottom: 0.5em;
+			#no-styles {
+				font-weight: bold;
 			}
 		</style>
 
@@ -52,9 +53,11 @@
 
 	<div id="installed"></div>
 
+	<div id="esifind-styles"><a id="esifind-styles-link" href="#"></a></div>
 	<div id="find-styles"><a id="find-styles-link" href="#"></a></div>
 	<div id="manage-styles"><a id="open-manage-link" href="manage.html"></a></div>
-
+	<hr>
+	<div id="esihelp"><a id="esihelp-link" href="#"></a></div>
 	<script src="popup.js"></script>
 
 </body>

@@ -85,7 +85,7 @@
    },
    "description": {
       "description": "Extension description",
-      "message": "Сделай интернет комфортнее с помощью ESI-стилей!"
+      "message": "Улучшение зрения, осанки и читабельности с помощью индивидуальной калибровки YouTube, VK, Google, Wikipedia, Facebook..."
    },
    "disableStyleLabel": {
       "description": "Label for the button to disable a style",
@@ -112,9 +112,17 @@
       "description": "Label for the button to enable a style",
       "message": "Включить"
    },
+   "esifindStylesForSite": {
+      "description": "Text for a link that gets a list of ESI styles for the current site",
+      "message": "Найти ESI стили для этого веб-сайта"
+   },
+   "esihelp": {
+      "description": "Get support for ESI",
+      "message": "Поддержка"
+   },
    "findStylesForSite": {
       "description": "Text for a link that gets a list of styles for the current site",
-      "message": "Найдите ESI стили для этого веб-сайта."
+      "message": "Найти стили для этого веб-сайта"
    },
    "helpAlt": {
       "description": "Alternate text for help buttons",
@@ -138,11 +146,11 @@
    },
    "noStylesForSite": {
       "description": "Text displayed when no styles are installed for the current site",
-      "message": "Для этого веб-сайта не установлено ни одного стиля."
+      "message": "Вы ещё не установили стили для этого сайта"
    },
    "openManage": {
-      "description": "Link to open the manage page.",
-      "message": "Управление установленными стилями."
+      "description": "Link to open the manage page",
+      "message": "Управление установленными стилями"
    },
    "sectionAdd": {
       "description": "Label for the button to add a section",
@@ -166,7 +174,7 @@
    },
    "styleChangesNotSaved": {
       "description": "Text for the prompt when changes are made to a style and the user tries to leave without saving",
-      "message": "Вы изменили этот стиль, но не сохранили его."
+      "message": "Вы изменили этот стиль, но не сохранили его"
    },
    "styleEnabledLabel": {
       "description": "Label for the enabled state of styles",
@@ -183,7 +191,7 @@
    },
    "styleMissingName": {
       "description": "Error displayed when user saves without providing a name",
-      "message": "Введите название."
+      "message": "Введите название"
    },
    "styleNameLabel": {
       "description": "Label for the name of styles",
@@ -203,7 +211,7 @@
    },
    "styleToMozillaFormatHelp": {
       "description": "Help info for the button that converts the code to Mozilla format",
-      "message": "Формат кода Mozilla можно использовать в сочетании с форматом Stylish для Firefox и отправлять на сайт userstyles.org."
+      "message": "Формат кода Mozilla можно использовать в сочетании с форматом Stylish для Firefox и отправлять на сайт userstyles.org"
    },
    "styleUpdate": {
       "description": "Confirmation when updating a style",
@@ -229,10 +237,10 @@
    },
    "updateCheckSucceededNoUpdate": {
       "description": "Text that displays when an update check completed and no update is available",
-      "message": "Стиль обновлен."
+      "message": "Стиль уже обновлен"
    },
    "updateCompleted": {
       "description": "Text that displays when an update completed",
-      "message": "Обновление завершено."
+      "message": "Обновление завершено!"
    }
 }

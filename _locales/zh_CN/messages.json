@@ -112,6 +112,14 @@
       "description": "Label for the button to enable a style",
       "message": "启用"
    },
+   "esifindStylesForSite": {
+      "description": "Text for a link that gets a list of ESI styles for the current site",
+      "message": "查找适合此网站的更多样式ESI。"
+   },
+   "esihelp": {
+      "description": "Get support for ESI",
+      "message": "Get support for ESI styles."
+   },
    "findStylesForSite": {
       "description": "Text for a link that gets a list of styles for the current site",
       "message": "查找适合此网站的更多样式。"

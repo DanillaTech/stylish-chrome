@@ -3,7 +3,14 @@ styleTemplate.innerHTML = "<div class='style-name'></div><div class='actions'><a
 
 chrome.tabs.getSelected(null, function(tab) {
 	chrome.extension.sendMessage({method: "getStyles", matchUrl: tab.url}, showStyles);
-	document.querySelector("#find-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url)+"%20esi";
+	document.querySelector("#esifind-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url)+"%20esi";
+});
+chrome.tabs.getSelected(null, function(tab) {
+	chrome.extension.sendMessage({method: "getStyles", matchUrl: tab.url});
+	document.querySelector("#find-styles a").href = "http://userstyles.org/styles/browse/all/" + encodeURIComponent(tab.url);
+});
+chrome.tabs.getSelected(null, function(tab) {
+	document.querySelector("#esihelp a").href = "http://dreamject.org/dreamjects/esi/support/";
 });
 
 function showStyles(styles) {
@@ -22,6 +29,17 @@ function createStyleElement(style) {
 	e.setAttribute("style-id", style.id);
 	var styleName = e.querySelector(".style-name");
 	styleName.appendChild(document.createTextNode(style.name));
+	if (style.url) {
+		var homepage = document.createElement("a");
+		homepage.setAttribute("href", style.url);
+		homepage.setAttribute("target", "_blank");
+		var homepageImg = document.createElement("img");
+		homepageImg.src = "world_go.png";
+		homepageImg.alt = "*";
+		homepage.appendChild(homepageImg);
+		styleName.appendChild(document.createTextNode(" " ));
+		styleName.appendChild(homepage);
+	}
 	var editLink = e.querySelector(".style-edit-link");
 	editLink.setAttribute("href", editLink.getAttribute("href") + style.id);
 	editLink.addEventListener("click", openLink, false);
@@ -83,7 +101,11 @@ function handleDelete(id) {
 
 tE("open-manage-link", "openManage");
 tE("find-styles-link", "findStylesForSite");
+tE("esifind-styles-link", "esifindStylesForSite");
+tE("esihelp-link", "esihelp");
 
 document.getElementById("find-styles-link").addEventListener("click", openLink, false);
+document.getElementById("esifind-styles-link").addEventListener("click", openLink, false);
 document.getElementById("open-manage-link").addEventListener("click", openLink, false);
+document.getElementById("esihelp-link").addEventListener("click", openLink, false);
 
